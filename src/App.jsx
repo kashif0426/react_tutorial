@@ -1,8 +1,11 @@
-
+import Hello from "./Hello"
 
 function App() {
   return (
-    <div>Hello World!</div>
+    <div className="App">
+      <Hello/>
+      <Hello/>
+    </div>
   )
 }
 
