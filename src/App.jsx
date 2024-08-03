@@ -1,10 +1,15 @@
 import Hello from "./Hello"
 
 function App() {
+  const person = {
+    name:"Kashif",
+    message:"Hi there!",
+    emoji:"👋",
+    seatNumbers:[1,4,7]
+  }
   return (
     <div className="App">
-      <Hello/>
-      <Hello/>
+      <Hello person={person} />
     </div>
   )
 }
