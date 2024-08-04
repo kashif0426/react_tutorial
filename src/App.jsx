@@ -1,4 +1,5 @@
 import Hello from "./Hello"
+import Fruits from "./Fruits"
 
 function App() {
   const person = {
@@ -9,7 +10,8 @@ function App() {
   }
   return (
     <div className="App">
-      <Hello person={person} />
+      {/* <Hello person={person}/> */}
+      <Fruits/>
     </div>
   )
 }
