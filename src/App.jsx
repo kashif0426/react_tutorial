@@ -12,8 +12,7 @@ function App() {
   return (
     <div className="App">
       {/* <Hello person={person}/> */}
-      {/* <Fruits/> */}
-      <ConditionalComponent/>
+      <Fruits/>
     </div>
   )
 }

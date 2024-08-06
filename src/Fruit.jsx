@@ -1,8 +1,16 @@
-import React from 'react'
+import React from "react";
 
-export default function Fruit ({emoji, name, price}) {
-
+export default function Fruit({ emoji, name, price }) {
   return (
-    <div> {emoji} {name} {price}€ </div>
-  )
+    <>
+      {/* {emoji} {name} {price}€  */}
+      {price > 5 ? (
+        <li>
+          {emoji} {name} {price}€{" "}
+        </li>
+      ) : (
+        ""
+      )}
+    </>
+  );
 }
