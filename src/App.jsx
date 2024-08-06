@@ -1,5 +1,6 @@
 import Hello from "./Hello"
 import Fruits from "./Fruits"
+import ConditionalComponent from "./ConditionalComponent"
 
 function App() {
   const person = {
@@ -11,7 +12,8 @@ function App() {
   return (
     <div className="App">
       {/* <Hello person={person}/> */}
-      <Fruits/>
+      {/* <Fruits/> */}
+      <ConditionalComponent/>
     </div>
   )
 }
