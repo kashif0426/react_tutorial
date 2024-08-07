@@ -1,3 +1,17 @@
-export default function Form (){
-    return <div></div>
+import { useState } from "react";
+
+export default function Form() {
+  const [name, setName] = useState("");
+
+  return (
+    <div>
+      <form>
+        <input onChange={(e) => setName(e.target.value)} type="text" value={name} />
+      </form>
+    </div>
+  );
 }
+
+//   onChange={function demo(e) {
+//     return handleChange(e);
+//   }}
